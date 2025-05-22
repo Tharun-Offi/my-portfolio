@@ -1003,8 +1003,6 @@ section ul li p:nth-child(3) {
 
 	}
 
-	.article {}
-
 	aside.active {
 		max-height: 115px;
 	}
@@ -1127,7 +1125,7 @@ section ul li p:nth-child(3) {
 	}
 
 	.skills ul {
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
 	}
