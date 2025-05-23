@@ -14,8 +14,8 @@
 :root {
 	--bg-black: hsl(0, 0%, 7%);
 	--black-1: hsl(240, 2%, 13%);
-	/* --lightRed: #00ec82; */
-	--lightRed: #ff6565;
+	/* --lightPink: #00ec82; */
+	--lightPink: #d38e5c;
 	--red: hsl(0, 43%, 51%);
 	--grey: #dfe5ea;
 	--ff-montserrat: "Montserrat", sans-serif;
@@ -51,7 +51,7 @@
 }
 
 ::selection {
-	background-color: var(--lightRed);
+	background-color: var(--lightPink);
 	color: var(--grey-1);
 }
 
@@ -92,12 +92,12 @@ header li a.link {
 }
 
 header li.active a.link {
-	color: var(--lightRed) !important;
+	color: var(--lightPink) !important;
 	opacity: 1 !important;
 }
 
 header li.active a.link::before {
-	background-color: var(--lightRed);
+	background-color: var(--lightPink);
 	transform: scaleX(1);
 }
 
@@ -182,7 +182,7 @@ aside.aside {
 
 .aside h2 {
 	font-family: var(--ff-leagueSpartan);
-	color: var(--lightRed);
+	color: var(--lightPink);
 	letter-spacing: 0.7px;
 	font-size: 1.75rem;
 	line-height: 22px;
@@ -263,7 +263,7 @@ aside.aside {
 
 .info svg {
 	font-size: 2.45rem;
-	color: var(--lightRed);
+	color: var(--lightPink);
 	padding: 10px;
 	border-radius: 10px;
 	opacity: 0.85;
@@ -329,7 +329,7 @@ aside.aside {
 
 .mediaLink a:is(:hover, :focus) {
 	cursor: pointer;
-	color: var(--lightRed);
+	color: var(--lightPink);
 }
 
 .mediaLink a:is(:hover, :focus) svg {
@@ -401,7 +401,7 @@ main section.active {
 	position: absolute;
 	left: 0;
 	bottom: -17px;
-	background: var(--lightRed);
+	background: var(--lightPink);
 	width: 22px;
 	height: 3px;
 	border-radius: 50px;
@@ -430,7 +430,7 @@ main section.active {
 .skills h3::before {
 	content: '';
 	position: absolute;
-	background-color: var(--lightRed);
+	background-color: var(--lightPink);
 	width: 12px;
 	height: 3px;
 	bottom: -10px;
@@ -460,7 +460,7 @@ main section.active {
 }
 
 .skills li::before {
-	background-color: var(--lightRed);
+	background-color: var(--lightPink);
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -473,7 +473,7 @@ main section.active {
 
 .book svg {
 	font-size: 1.5rem;
-	color: var(--lightRed);
+	color: var(--lightPink);
 
 }
 
@@ -488,7 +488,7 @@ main section.active {
 .portfolioContainer li {
 	font-family: var(--ff-montserrat);
 	font-size: 0.9rem;
-	color: var(--lightRed);
+	color: var(--lightPink);
 }
 
 .resume ul {
@@ -512,7 +512,7 @@ main section.active {
 	left: -50px;
 	top: 0;
 	aspect-ratio: 1;
-	background-color: var(--lightRed);
+	background-color: var(--lightPink);
 	border-radius: 50%;
 	border: 3.4px solid var(--grey-2);
 	z-index: 2;
@@ -547,7 +547,7 @@ main section.active {
 }
 
 section ul li p:nth-child(2) {
-	color: var(--lightRed);
+	color: var(--lightPink);
 	font-size: 1.2rem;
 	letter-spacing: 0.7px;
 
@@ -582,7 +582,7 @@ section ul li p:nth-child(3) {
 }
 
 .contactContainer :is(input, textarea):is(:hover, :focus) {
-	border: 1px solid var(--lightRed);
+	border: 1px solid var(--lightPink);
 }
 
 .contactContainer textarea {
@@ -608,7 +608,7 @@ section ul li p:nth-child(3) {
 	width: max-content;
 	padding: 0.75em 1.25em;
 	font-size: 0.85rem;
-	color: var(--lightRed);
+	color: var(--lightPink);
 	margin: 0 0 0 auto;
 	position: relative;
 	display: flex;
@@ -621,7 +621,7 @@ section ul li p:nth-child(3) {
 }
 
 .contactContainer button:is(:hover, :focus) {
-	border: 1px solid var(--lightRed);
+	border: 1px solid var(--lightPink);
 }
 
 .contactContainer button:disabled {
@@ -695,7 +695,7 @@ section ul li p:nth-child(3) {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 2.2rem;
-	color: var(--lightRed);
+	color: var(--lightPink);
 	opacity: 0;
 	transition: opacity 300ms ease-in;
 	z-index: 20;
@@ -725,7 +725,7 @@ section ul li p:nth-child(3) {
 
 .projects a {
 	text-decoration: none;
-	color: var(--lightRed);
+	color: var(--lightPink);
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
@@ -815,7 +815,7 @@ section ul li p:nth-child(3) {
 		top: 1px;
 		right: 0;
 		background-color: var(--grey-2);
-		color: var(--lightRed);
+		color: var(--lightPink);
 		outline: none;
 		border: none;
 		font-family: var(--ff-montserrat);
@@ -844,7 +844,7 @@ section ul li p:nth-child(3) {
 
 	.aside #showContacts:is(:hover, :focus) {
 		cursor: pointer;
-		background-color: var(--lightRed);
+		background-color: var(--lightPink);
 	}
 
 	.aside #showContacts:is(:hover, :focus)::before {
